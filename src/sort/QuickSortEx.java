@@ -13,7 +13,7 @@ public class QuickSortEx {
 	}
 	
 	static void quickSort(int[] arr, int low, int high) {
-		if(low >= high) {
+		if(low >= high) {  // 정렬하고자 하는 집단의 원소가 1개인 경우
 			return;
 		}
 		
@@ -22,7 +22,7 @@ public class QuickSortEx {
 		int j = high;
 		int temp;
 		
-		while(i <= j) {//교차할 때까지 반복. j가 i보다 크면 while문 종료
+		while(i <= j) {// 교차할 때까지 반복. j가 i보다 크면 while문 종료
 			
 			// 피벗보다 큰 값을 만날 때가지 반복
 			while(i<=high && arr[i] < arr[pivot]) {
@@ -34,7 +34,7 @@ public class QuickSortEx {
 				j--;
 			}
 			
-			if(i > j) {//교차한 상태가 되면 : 피봇과 j값 교환
+			if(i > j) { //교차한 상태가 되면 : 피봇과 j값 교환
 				temp = arr[j];
 				arr[j] = arr[pivot];
 				arr[pivot] = temp;				

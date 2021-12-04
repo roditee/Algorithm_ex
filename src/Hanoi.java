@@ -8,6 +8,8 @@ public class Hanoi {
         int n = sc.nextInt();
         
         hanoi(1, 2, 3, n); //1번 기둥의 n개를 3번 기둥으로 옮김
+        
+        sc.close();
 	}
 	
 	static void hanoi(int from, int m, int to, int n) { // from -> to로 원판 n이동

@@ -13,6 +13,8 @@ public class exGreedyCoinArray {
 			charge%=unit[i];
 		}
 		System.out.println("³ª¸ÓÁö : " + charge);
+		
+		sc.close();
 	}
 
 }

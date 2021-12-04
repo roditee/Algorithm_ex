@@ -26,5 +26,7 @@ public class ArrayListEx03 {
 		System.out.println("단어 리스트 : " + lst);
 		System.out.println("가장 긴 단어 : " + maxLen);
 		System.out.println("가장 긴 단어의 길이 : " + maxVal);
+		
+		sc.close();
 	}
 }

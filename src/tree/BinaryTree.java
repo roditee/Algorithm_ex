@@ -37,7 +37,6 @@ public class BinaryTree {
 					}
 				}
 			}
-		System.out.println();
 	}
 	
 	// 전위 운행 (순회) : root - left - right

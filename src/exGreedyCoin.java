@@ -48,5 +48,7 @@ public class exGreedyCoin {
 		System.out.printf("50원 : %d\n", cnt_50);
 		System.out.printf("10원 : %d\n", cnt_10);
 		System.out.printf("나머지 : %d\n", charge);
+		
+		sc.close();
 	}
 }

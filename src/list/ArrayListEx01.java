@@ -1,7 +1,6 @@
 package list;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 // 제네릭 타입이 아닌 경우
